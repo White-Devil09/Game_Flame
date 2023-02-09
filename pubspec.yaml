@@ -13,6 +13,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   flame: ^1.6.0
   flame_audio: ^1.4.0
+  flutter_launcher_icons: ^0.11.0
 
 dev_dependencies:
   flutter_test:
@@ -23,9 +24,14 @@ dev_dependencies:
 flutter:
   uses-material-design: true
 
-  # To add assets to your application, add an assets section, like this:
   assets:
     - assets/images/
     - assets/audio/
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/santa.png"
+
 
 
